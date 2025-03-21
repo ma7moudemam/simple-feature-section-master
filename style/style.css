@@ -1,0 +1,71 @@
+body{
+    background-image: url('../resources/Background_image.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121826;
+    color: #fff;
+}
+
+.card{
+    background-color: #212936;
+    border-radius: 16px;
+    color: #fff;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.15);
+
+}
+
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+}
+
+.icon{
+    font-size: 26px;
+}
+
+.card-body img{
+    border-radius: 16px;
+}
+
+
+.bg-FBE5E6{
+    background-color: #FBE5E6;
+}
+
+.bg-DEE9FC{
+    background-color: #DEE9FC;
+}
+
+.bg-FCEED8{
+    background-color: #FCEED8;
+}
+
+.fs-40{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.text-9DA3AE{
+    color: #9DA3AE;
+}
+
+.fs-20{
+    font-size: 20px;
+    font-weight: 600;
+}
